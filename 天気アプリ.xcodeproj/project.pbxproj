@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F8F963F1C79E9A700B8E9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F963E1C79E9A700B8E9B1 /* AppDelegate.swift */; };
+		7F8F96411C79E9A700B8E9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F96401C79E9A700B8E9B1 /* ViewController.swift */; };
+		7F8F96441C79E9A700B8E9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8F96421C79E9A700B8E9B1 /* Main.storyboard */; };
+		7F8F96461C79E9A700B8E9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8F96451C79E9A700B8E9B1 /* Assets.xcassets */; };
+		7F8F96491C79E9A700B8E9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8F96471C79E9A700B8E9B1 /* LaunchScreen.storyboard */; };
+		7F8F96541C79E9A700B8E9B1 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F96531C79E9A700B8E9B1 /* ______Tests.swift */; };
+		7F8F965F1C79E9A700B8E9B1 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F965E1C79E9A700B8E9B1 /* ______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F8F96501C79E9A700B8E9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8F96331C79E9A600B8E9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8F963A1C79E9A700B8E9B1;
+			remoteInfo = "天気アプリ";
+		};
+		7F8F965B1C79E9A700B8E9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8F96331C79E9A600B8E9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8F963A1C79E9A700B8E9B1;
+			remoteInfo = "天気アプリ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F8F963B1C79E9A700B8E9B1 /* 天気アプリ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "天気アプリ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8F963E1C79E9A700B8E9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F8F96401C79E9A700B8E9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F8F96431C79E9A700B8E9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8F96451C79E9A700B8E9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8F96481C79E9A700B8E9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8F964A1C79E9A700B8E9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8F964F1C79E9A700B8E9B1 /* 天気アプリTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天気アプリTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8F96531C79E9A700B8E9B1 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		7F8F96551C79E9A700B8E9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8F965A1C79E9A700B8E9B1 /* 天気アプリUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天気アプリUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8F965E1C79E9A700B8E9B1 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		7F8F96601C79E9A700B8E9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8F96381C79E9A700B8E9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8F964C1C79E9A700B8E9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8F96571C79E9A700B8E9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8F96321C79E9A600B8E9B1 = {
+			isa = PBXGroup;
+			children = (
+				7F8F963D1C79E9A700B8E9B1 /* 天気アプリ */,
+				7F8F96521C79E9A700B8E9B1 /* 天気アプリTests */,
+				7F8F965D1C79E9A700B8E9B1 /* 天気アプリUITests */,
+				7F8F963C1C79E9A700B8E9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8F963C1C79E9A700B8E9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8F963B1C79E9A700B8E9B1 /* 天気アプリ.app */,
+				7F8F964F1C79E9A700B8E9B1 /* 天気アプリTests.xctest */,
+				7F8F965A1C79E9A700B8E9B1 /* 天気アプリUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8F963D1C79E9A700B8E9B1 /* 天気アプリ */ = {
+			isa = PBXGroup;
+			children = (
+				7F8F963E1C79E9A700B8E9B1 /* AppDelegate.swift */,
+				7F8F96401C79E9A700B8E9B1 /* ViewController.swift */,
+				7F8F96421C79E9A700B8E9B1 /* Main.storyboard */,
+				7F8F96451C79E9A700B8E9B1 /* Assets.xcassets */,
+				7F8F96471C79E9A700B8E9B1 /* LaunchScreen.storyboard */,
+				7F8F964A1C79E9A700B8E9B1 /* Info.plist */,
+			);
+			path = "天気アプリ";
+			sourceTree = "<group>";
+		};
+		7F8F96521C79E9A700B8E9B1 /* 天気アプリTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8F96531C79E9A700B8E9B1 /* ______Tests.swift */,
+				7F8F96551C79E9A700B8E9B1 /* Info.plist */,
+			);
+			path = "天気アプリTests";
+			sourceTree = "<group>";
+		};
+		7F8F965D1C79E9A700B8E9B1 /* 天気アプリUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8F965E1C79E9A700B8E9B1 /* ______UITests.swift */,
+				7F8F96601C79E9A700B8E9B1 /* Info.plist */,
+			);
+			path = "天気アプリUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F8F963A1C79E9A700B8E9B1 /* 天気アプリ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8F96631C79E9A700B8E9B1 /* Build configuration list for PBXNativeTarget "天気アプリ" */;
+			buildPhases = (
+				7F8F96371C79E9A700B8E9B1 /* Sources */,
+				7F8F96381C79E9A700B8E9B1 /* Frameworks */,
+				7F8F96391C79E9A700B8E9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "天気アプリ";
+			productName = "天気アプリ";
+			productReference = 7F8F963B1C79E9A700B8E9B1 /* 天気アプリ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8F964E1C79E9A700B8E9B1 /* 天気アプリTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8F96661C79E9A700B8E9B1 /* Build configuration list for PBXNativeTarget "天気アプリTests" */;
+			buildPhases = (
+				7F8F964B1C79E9A700B8E9B1 /* Sources */,
+				7F8F964C1C79E9A700B8E9B1 /* Frameworks */,
+				7F8F964D1C79E9A700B8E9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8F96511C79E9A700B8E9B1 /* PBXTargetDependency */,
+			);
+			name = "天気アプリTests";
+			productName = "天気アプリTests";
+			productReference = 7F8F964F1C79E9A700B8E9B1 /* 天気アプリTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F8F96591C79E9A700B8E9B1 /* 天気アプリUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8F96691C79E9A700B8E9B1 /* Build configuration list for PBXNativeTarget "天気アプリUITests" */;
+			buildPhases = (
+				7F8F96561C79E9A700B8E9B1 /* Sources */,
+				7F8F96571C79E9A700B8E9B1 /* Frameworks */,
+				7F8F96581C79E9A700B8E9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8F965C1C79E9A700B8E9B1 /* PBXTargetDependency */,
+			);
+			name = "天気アプリUITests";
+			productName = "天気アプリUITests";
+			productReference = 7F8F965A1C79E9A700B8E9B1 /* 天気アプリUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8F96331C79E9A600B8E9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "reo harada";
+				TargetAttributes = {
+					7F8F963A1C79E9A700B8E9B1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7F8F964E1C79E9A700B8E9B1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7F8F963A1C79E9A700B8E9B1;
+					};
+					7F8F96591C79E9A700B8E9B1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7F8F963A1C79E9A700B8E9B1;
+					};
+				};
+			};
+			buildConfigurationList = 7F8F96361C79E9A600B8E9B1 /* Build configuration list for PBXProject "天気アプリ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F8F96321C79E9A600B8E9B1;
+			productRefGroup = 7F8F963C1C79E9A700B8E9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F8F963A1C79E9A700B8E9B1 /* 天気アプリ */,
+				7F8F964E1C79E9A700B8E9B1 /* 天気アプリTests */,
+				7F8F96591C79E9A700B8E9B1 /* 天気アプリUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8F96391C79E9A700B8E9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8F96491C79E9A700B8E9B1 /* LaunchScreen.storyboard in Resources */,
+				7F8F96461C79E9A700B8E9B1 /* Assets.xcassets in Resources */,
+				7F8F96441C79E9A700B8E9B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8F964D1C79E9A700B8E9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8F96581C79E9A700B8E9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8F96371C79E9A700B8E9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8F96411C79E9A700B8E9B1 /* ViewController.swift in Sources */,
+				7F8F963F1C79E9A700B8E9B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8F964B1C79E9A700B8E9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8F96541C79E9A700B8E9B1 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8F96561C79E9A700B8E9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8F965F1C79E9A700B8E9B1 /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F8F96511C79E9A700B8E9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8F963A1C79E9A700B8E9B1 /* 天気アプリ */;
+			targetProxy = 7F8F96501C79E9A700B8E9B1 /* PBXContainerItemProxy */;
+		};
+		7F8F965C1C79E9A700B8E9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8F963A1C79E9A700B8E9B1 /* 天気アプリ */;
+			targetProxy = 7F8F965B1C79E9A700B8E9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F8F96421C79E9A700B8E9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8F96431C79E9A700B8E9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8F96471C79E9A700B8E9B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8F96481C79E9A700B8E9B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F8F96611C79E9A700B8E9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F8F96621C79E9A700B8E9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F8F96641C79E9A700B8E9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "天気アプリ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppAcademia.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F8F96651C79E9A700B8E9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "天気アプリ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppAcademia.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F8F96671C79E9A700B8E9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "天気アプリTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppAcademia.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/天気アプリ.app/天気アプリ";
+			};
+			name = Debug;
+		};
+		7F8F96681C79E9A700B8E9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "天気アプリTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppAcademia.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/天気アプリ.app/天気アプリ";
+			};
+			name = Release;
+		};
+		7F8F966A1C79E9A700B8E9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "天気アプリUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppAcademia.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "天気アプリ";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7F8F966B1C79E9A700B8E9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "天気アプリUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppAcademia.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "天気アプリ";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F8F96361C79E9A600B8E9B1 /* Build configuration list for PBXProject "天気アプリ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8F96611C79E9A700B8E9B1 /* Debug */,
+				7F8F96621C79E9A700B8E9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8F96631C79E9A700B8E9B1 /* Build configuration list for PBXNativeTarget "天気アプリ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8F96641C79E9A700B8E9B1 /* Debug */,
+				7F8F96651C79E9A700B8E9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F8F96661C79E9A700B8E9B1 /* Build configuration list for PBXNativeTarget "天気アプリTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8F96671C79E9A700B8E9B1 /* Debug */,
+				7F8F96681C79E9A700B8E9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F8F96691C79E9A700B8E9B1 /* Build configuration list for PBXNativeTarget "天気アプリUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8F966A1C79E9A700B8E9B1 /* Debug */,
+				7F8F966B1C79E9A700B8E9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8F96331C79E9A600B8E9B1 /* Project object */;
+}
